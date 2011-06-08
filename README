@@ -1,0 +1,13 @@
+lsniff - Little packet sniffer
+Kyle Hale 2011
+
+You must have libpcap installed for this to link correctly
+
+build with 'make'
+
+Run lsniff as super user
+
+Example:
+    sudo ./lsniff -d eth0 -c 10 -f "port 80" : capture 10 http packets on the eth0 interface
+
+
